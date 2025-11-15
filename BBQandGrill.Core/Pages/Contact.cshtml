@@ -1,0 +1,48 @@
+@page
+@model BBQandGrill.Core.Pages.ContactModel
+@{
+    ViewData["Title"] = "Contact Us";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h1 class="mb-4">Contact Us</h1>
+            
+            @if (!string.IsNullOrEmpty(Model.ResultMessage))
+            {
+                <div class="alert @(Model.IsSuccess ? "alert-success" : "alert-danger") alert-dismissible fade show" role="alert">
+                    @Model.ResultMessage
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+            
+            <form method="post">
+                <div class="mb-3">
+                    <label asp-for="ContactMessage.SenderName" class="form-label">Your Name</label>
+                    <input asp-for="ContactMessage.SenderName" class="form-control" placeholder="Enter your name" />
+                    <span asp-validation-for="ContactMessage.SenderName" class="text-danger"></span>
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="ContactMessage.SenderEmail" class="form-label">Your Email</label>
+                    <input asp-for="ContactMessage.SenderEmail" type="email" class="form-control" placeholder="your@email.com" />
+                    <span asp-validation-for="ContactMessage.SenderEmail" class="text-danger"></span>
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="ContactMessage.Message" class="form-label">Message</label>
+                    <textarea asp-for="ContactMessage.Message" class="form-control" rows="5" placeholder="Your message..."></textarea>
+                    <span asp-validation-for="ContactMessage.Message" class="text-danger"></span>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Send Message</button>
+                <a asp-page="/Index" class="btn btn-secondary">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,55 @@
+@page
+@model BBQandGrill.Core.Pages.DessertsModel
+@{
+    ViewData["Title"] = "Desserts";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4">Desserts</h1>
+        <p class="lead">Sweet endings to your meal</p>
+        <a asp-page="/Menu" class="btn btn-outline-secondary">← Back to Menu</a>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+                <img src="~/Images/peach_cobbler.jpg" class="card-img-top" alt="Peach Cobbler" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Peach Cobbler</h5>
+                    <p class="card-text">Specialty Peach Cobbler made with peaches, brown sugar, flour and eggs.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+                <img src="~/Images/pecan.jpg" class="card-img-top" alt="Pecan Pie" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Pecan Pie</h5>
+                    <p class="card-text">Pecan Pie with pecan nuts, cream and brown sugar.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+                <img src="~/Images/cream_sandwich.jpg" class="card-img-top" alt="Ice Cream Sandwich" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Ice Cream Sandwich</h5>
+                    <p class="card-text">Home made Ice cream sandwich</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+                <img src="~/Images/cream_cheese.jpg" class="card-img-top" alt="Cream Cheese Pie" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Cream Cheese Pie</h5>
+                    <p class="card-text">Cream cheese pie with vanilla, eggs and lots of cheese!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

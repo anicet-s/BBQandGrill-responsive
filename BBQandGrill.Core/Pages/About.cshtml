@@ -1,0 +1,50 @@
+@page
+@model BBQandGrill.Core.Pages.AboutModel
+@{
+    ViewData["Title"] = "About Us";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h1 class="display-4 text-center mb-5">About Paul A's Barbecue</h1>
+            
+            <p class="lead">
+                Welcome to Paul A's Barbecue and Grill, where tradition meets flavor!
+            </p>
+            
+            <p>
+                For over 20 years, we've been serving the best barbecue in town. Our secret? 
+                Fresh ingredients sourced directly from our neighboring state of Kansas, 
+                combined with time-honored cooking techniques passed down through generations.
+            </p>
+            
+            <p>
+                What started as a small family business has grown into a beloved local institution. 
+                We take pride in every dish we serve, from our slow-smoked pulled pork to our 
+                signature peach cobbler.
+            </p>
+            
+            <h3 class="mt-5 mb-3">Our Story</h3>
+            <p>
+                Founded by Paul Anderson in 2003, our restaurant began with a simple mission: 
+                to bring authentic, mouth-watering barbecue to our community. Today, we continue 
+                that tradition with the same passion and dedication.
+            </p>
+            
+            <h3 class="mt-5 mb-3">What Makes Us Special</h3>
+            <ul>
+                <li>Fresh, locally-sourced ingredients</li>
+                <li>Traditional smoking techniques</li>
+                <li>Family-friendly atmosphere</li>
+                <li>Catering services available</li>
+                <li>Special events and live music</li>
+            </ul>
+            
+            <div class="text-center mt-5">
+                <a asp-page="/Menu" class="btn btn-primary btn-lg me-2">View Our Menu</a>
+                <a asp-page="/Contact" class="btn btn-outline-secondary btn-lg">Get in Touch</a>
+            </div>
+        </div>
+    </div>
+</div>

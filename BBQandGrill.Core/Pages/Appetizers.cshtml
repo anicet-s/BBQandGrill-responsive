@@ -1,0 +1,55 @@
+@page
+@model BBQandGrill.Core.Pages.AppetizersModel
+@{
+    ViewData["Title"] = "Appetizers";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4">Appetizers</h1>
+        <p class="lead">Start your meal with our delicious appetizers</p>
+        <a asp-page="/Menu" class="btn btn-outline-secondary">← Back to Menu</a>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+                <img src="~/Images/wings.jpg" class="card-img-top" alt="Wings Plate" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Wings Plate</h5>
+                    <p class="card-text">12 hot wings plate seasoned with a side of fries.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+                <img src="~/Images/fried_beans.jpg" class="card-img-top" alt="Fried Green Beans" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Fried Green Beans</h5>
+                    <p class="card-text">Fried Green Beans with mushroom cream</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+                <img src="~/Images/onion_rings.jpg" class="card-img-top" alt="Onion Rings" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Onion Rings</h5>
+                    <p class="card-text">Onion Rings coated with flour, egg and bread mixture.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+                <img src="~/Images/mozarella_sticks.jpg" class="card-img-top" alt="Mozzarella Sticks" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Mozzarella Sticks</h5>
+                    <p class="card-text">Mozzarella sticks served with marinara sauce and ranch dressing.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

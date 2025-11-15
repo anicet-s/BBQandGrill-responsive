@@ -1,0 +1,62 @@
+@page
+@model BBQandGrill.Core.Pages.MenuModel
+@{
+    ViewData["Title"] = "Menu";
+}
+
+<div class="container mt-5">
+    <h1 class="display-4 text-center mb-5">Our Menu</h1>
+    
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <a asp-page="/Appetizers" class="text-decoration-none">
+                <div class="card h-100 menu-card">
+                    <img src="~/Images/appetizer.jpg" class="card-img-top" alt="Appetizers" style="height: 250px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h2 class="card-title text-dark">🍗 Appetizers</h2>
+                        <p class="card-text text-muted">Start your meal with our delicious appetizers</p>
+                        <button class="btn btn-outline-primary">View Appetizers</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <a asp-page="/Entrees" class="text-decoration-none">
+                <div class="card h-100 menu-card">
+                    <img src="~/Images/Entree.jpg" class="card-img-top" alt="Entrees" style="height: 250px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h2 class="card-title text-dark">🥩 Entrees</h2>
+                        <p class="card-text text-muted">Our signature barbecue dishes</p>
+                        <button class="btn btn-outline-primary">View Entrees</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <a asp-page="/Desserts" class="text-decoration-none">
+                <div class="card h-100 menu-card">
+                    <img src="~/Images/dessert.jpg" class="card-img-top" alt="Desserts" style="height: 250px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h2 class="card-title text-dark">🍰 Desserts</h2>
+                        <p class="card-text text-muted">Sweet endings to your meal</p>
+                        <button class="btn btn-outline-primary">View Desserts</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .menu-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .menu-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+</style>

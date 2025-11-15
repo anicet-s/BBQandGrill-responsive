@@ -84,6 +84,8 @@
     <Content Include="Default.aspx" />
     <Content Include="Delivery.aspx" />
     <Content Include="Desserts.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="NotFound.aspx" />
     <Content Include="Entrees.aspx" />
     <Content Include="Events.aspx" />
     <Content Include="Images\appetizer.jpg" />
@@ -151,6 +153,13 @@
     <Compile Include="Careers.aspx.designer.cs">
       <DependentUpon>Careers.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\ConfigurationHelper.cs" />
+    <Compile Include="Models\ContactMessage.cs" />
+    <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\MenuItem.cs" />
+    <Compile Include="Services\DatabaseService.cs" />
+    <Compile Include="Services\EmailService.cs" />
+    <Compile Include="Services\LocationService.cs" />
     <Compile Include="ContactUs.aspx.cs">
       <DependentUpon>ContactUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -193,6 +202,13 @@
     <Compile Include="Entrees.aspx.designer.cs">
       <DependentUpon>Entrees.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Events.aspx.cs">
       <DependentUpon>Events.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -227,6 +243,13 @@
     </Compile>
     <Compile Include="MyProfile.aspx.designer.cs">
       <DependentUpon>MyProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NotFound.aspx.cs">
+      <DependentUpon>NotFound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NotFound.aspx.designer.cs">
+      <DependentUpon>NotFound.aspx</DependentUpon>
     </Compile>
     <Compile Include="OrderOnline.aspx.cs">
       <DependentUpon>OrderOnline.aspx</DependentUpon>

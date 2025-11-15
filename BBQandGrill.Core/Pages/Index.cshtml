@@ -1,0 +1,40 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div id="defaultPage" class="container mt-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <img src="~/Images/fruits.png" alt="Paul A's Barbecue Logo" class="img-fluid mb-4" style="max-width: 200px;">
+            <h1 class="display-3 mb-4">Welcome to Paul A's Barbecue and Grill</h1>
+            <p class="lead">
+                Here you will find the best barbecue in town, made with fresh ingredients directly harvested in our neighboring 
+                state of Kansas. We also have some of the best italian dishes.
+            </p>
+            <p class="lead">
+                Please visit our events page for special events happening near you!
+            </p>
+            
+            <div class="mt-5">
+                <a asp-page="/Menu" class="btn btn-primary btn-lg me-2">View Menu</a>
+                <a asp-page="/Contact" class="btn btn-outline-secondary btn-lg">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row mt-5">
+        <div class="col-md-12">
+            <img src="~/Images/Fish-rotisserie.jpg" alt="Featured Dish" class="img-fluid rounded shadow" style="width: 100%; max-height: 500px; object-fit: cover;">
+        </div>
+    </div>
+    
+    <div class="row mt-5">
+        <div class="col-md-12 text-center">
+            <div class="alert alert-info" role="alert">
+                <strong>🎉 Migrated to ASP.NET Core 8!</strong> This application now runs natively on Linux with better performance and modern features.
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,814 @@
+﻿/* 
+*
+*  NEXUS 5 and most mobile devices
+*
+*/
+@media screen and (max-width: 600px) {
+    body {
+        width: 100%;
+        background-color: #E8E8E8;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        font-family: 'Pontano Sans', sans-serif !important;
+    }
+
+    
+    
+    textarea{
+        width: 100%;
+    }  
+
+   
+
+    .footer-paragraph {
+      display: flex;
+      flex-wrap:wrap-reverse;
+    }
+
+    
+
+    #inlineNav{
+        display:none;
+    }
+
+
+
+    .eventDisplay{
+        margin-top: auto;
+    }
+
+    #sendMessage{
+        text-align:right;
+    }
+
+    
+
+    window-center{
+        justify-content: center;
+    }
+
+    #describeOrder {
+        display: flex;
+        margin: auto; 
+        color: black;
+        background-color: white;
+    }
+
+    table {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    #aboutUs{
+        color: Blue; 
+        width: auto;  
+        text-align: left;
+    }
+    #wrapper {
+        font-style: normal;
+        background-color: White;
+        background-image: url('../Images/beefbob.png');
+        background-repeat: no-repeat;
+        display: flex;
+        flex-wrap: wrap;
+        align-self:auto;
+
+    }
+
+    #menuImage{
+         height:auto;
+         width: 100%;
+    }
+    .grandMa{
+        color: black;
+    }
+
+    #formStyle{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #front_text{
+        color: black;
+        font-size: small;
+        width: 55%;     
+    }
+
+    .sub_Menu{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #logoDiv{
+        width:30%;
+        height:auto;
+       
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+        align-content: flex-start;
+    }
+
+    @font-face {
+        font-family: titleFont;
+        src: url('../Images/AlbertText-Bold.ttf');
+    }
+
+    #headOfSite {
+        background-color: white;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+    .titleshow {
+        background-color: purple;
+        float: left;
+    }
+
+    #mainNav {
+        color: grey;
+        text-align: center;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        font-size: small;
+    }
+
+    .dropdown{
+       height: 4%;
+    }
+
+    .dropdown-menu{
+       background-color: #000033;
+    }
+
+    #footlink {
+        margin-left: inherit;
+        margin-bottom: inherit;
+        font-size: small;
+        width: 100%; 
+        background-color: #000033;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: none;
+            color: green;
+        }
+
+    #variableContent {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        display: flex;
+    }
+
+    #siteTitle {
+        float: left;
+        font-family: Cambria;
+        font-style: italic;
+        font-weight: bold;
+        font-size: medium;
+        height: auto;
+        width: 35%;
+        text-align: center;
+        color: black;
+    }
+
+    .headerLink{
+        justify-content:space-around; 
+    }
+
+
+
+    .bigTitleHead {
+        font-family: 'Berkshire Swash', cursive !important;
+        font-variant: normal;
+        text-transform: capitalize;
+        color: black;
+        display: flex;
+        justify-content:flex-start;
+      
+        
+    }
+
+    .flex-item{
+        justify-content:space-around;
+    }
+
+    
+
+    #slogan {
+        color: black;
+        font-size: small;
+    }  
+
+
+
+    #Select1 {
+        width: 20%;
+    }
+
+    .Icon{
+       justify-content: center;
+       flex-direction: column;
+       display: flex;
+       color: blue;
+    }
+
+    .tdLinks{
+        text-align: center;
+    }
+
+
+
+    .bottomTable {
+        width: 100%;
+        text-decoration: none;
+        background-color: #000033;
+        overflow-x: auto;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        align-content:center;
+        
+    }
+
+    .orderMenu {
+        width: 100%;
+        text-decoration: none;
+        overflow-x: auto;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        color:blue;
+        align-items:flex-end;
+    }
+
+
+ #copyright{
+     text-align: center;
+     justify-content: center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+    .dataTableClass {
+        width: 40%;
+        text-decoration: none;
+        padding: 4%;
+        color: black;
+        background-color: #E0E0E0;
+    }
+
+    .textClass {
+        color: black;
+        width: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+ 
+    }
+
+    #contactForm {
+        display: flex;
+        border-style: solid;
+        margin: 1%;
+        width: 100%;
+        color: black;
+        padding: 10px;
+        background-color: Lime;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    #contactPage {
+        color: black;
+       
+    }
+
+    .hide {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+
+    .show {
+        display: inline;
+    }
+
+    .errorTextClass {
+        color: Red;
+    }
+
+    .removeSpace {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    
+    .warnText {
+        font-size: medium;
+        background-color: Yellow;
+        color: Red;
+        position: relative;
+    }
+
+    #deals {
+        color: black;
+        text-align: left;
+        padding: 15px;
+    }
+
+
+    .auto-style1 {
+        font-size: x-large;
+        text-decoration: none;
+        color: black;
+        background-color: #E0E0E0;
+        text-align: center;
+    }
+
+    .locationAlign {
+        align-content:flex-end;
+    }
+
+    /* Container for all terms and definitions */
+    .accordion {
+        background-color: #eef;
+        width: 100%;
+        margin-top: 0.1%;
+        font-family: Verdana, Tahoma, Sans-Serif;
+   
+        color: black;
+    }
+    /* term box contains the term to be defined */
+    .term {
+        padding: 2%;
+        background: url("../Images/tinyArrow.png") no-repeat 98% center;
+        border: solid 1px white;
+        margin: auto;
+        color: black;
+    }
+
+        .term:hover {
+            color: green;
+            font-weight: bold;
+
+        }
+    /* Paragraph contains the definition. */
+    .accordion p {
+        margin: 0;
+        padding: 1%;
+        background-color: white;
+        display: none;
+        color: black;
+        font-size: x-small;
+    }
+
+
+
+    #myNewMenu .img-rounded:hover {
+        border: solid;
+        border-color: green;
+    }
+
+   
+
+    .breakfastImg{
+        border: solid;
+        width: 90%;
+        height: auto;
+
+        
+    }
+
+    .bottomData {
+       color: grey; 
+       padding-bottom: 5%;
+    }
+
+    .img-rounded{
+        width: 100%;
+        height: auto;
+        border: solid;
+        border-color: black;
+    }
+
+    #eventDiv{
+        color: black;
+    }
+
+    #delivery_info{
+        margin-top: 10%; 
+        margin-bottom: 10%;  
+        color:black; 
+        text-align: center;
+    }
+
+    .appetizing{
+        width: 100%;
+        
+    }
+}
+
+/*
+ *
+ *
+ *
+ *
+ */
+
+@media screen and (min-width: 601px) {
+
+body {
+        width: 100%;
+        background-color: #E8E8E8;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        font-family: 'Pontano Sans', sans-serif !important;
+        height: 100%;
+    }
+
+
+  #wrapper {
+        font-style: normal;
+        display: flex;
+        background-color: White;
+        width: 100%;
+        background-image: url('../Images/beefbob.png');
+        background-repeat: no-repeat;
+        display: flex;
+        flex-wrap: wrap;
+        align-self:auto;
+
+    }
+
+   #formStyle{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  
+  #dropNav{
+      display:none;
+  }
+
+ #image_Div{
+         height:auto;
+         width: 100%;
+         display: flex;
+         justify-content: flex-end;
+    }
+
+ #add_cart{
+      align-items: flex-end;
+      margin-right: 1%;
+ }
+
+ #logoDiv{
+        width:30%;
+        height:auto;
+        margin: 0px;
+       
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+        align-content: flex-start;
+    }
+
+
+
+
+
+
+@font-face {
+    font-family: titleFont;
+    src: url('.../Images/AlbertText-Bold.ttf');
+}
+
+#headOfSite{
+    display: flex;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.flex-item{
+
+}
+
+
+
+.titleshow {
+    background-color : Purple;
+    float:left;
+  
+}
+
+#mainNav
+{
+   background-color: #000033 !important;
+   color: grey;
+   width: 100%;
+   text-align: center;
+   margin-bottom: 1%;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+  
+    
+}
+
+#footlink
+{
+   margin-left: inherit;
+   margin-bottom: inherit;
+   font-size: small;
+   width: 100%; 
+   background-color: #000033;
+   text-align: center;
+   
+}
+
+a{text-decoration: none;}
+
+a:hover{
+    text-decoration:none;
+    color:green;
+}
+
+#variableContent
+{
+   margin-top: 5%;
+   margin-bottom: 10%;
+   width: 100%;
+
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#siteTitle {
+        font-weight: bold;
+        font-size: xx-large;
+        width: 100%;
+        margin-top:5%;
+}
+
+
+        
+.bigTitleHead
+        {
+            font-family: 'Berkshire Swash', cursive;
+            text-align: center;
+            font-size: xx-large;
+            font-variant: normal;
+            text-transform: capitalize;
+            color: black;
+            margin-top: 40%;
+}
+        
+#slogan
+{
+   color: black;
+   float:right;
+   align-items: flex-end;
+   margin-bottom: 1%;
+   text-align: right;
+}
+        
+.externalLinks{
+  color: blue;
+}        
+     
+        
+        
+        
+     
+  .bottomTable
+        {
+            width: 100%;
+            text-decoration:none;
+            background-color: #000033 !important;
+            text-align :center;
+            padding: 3%;
+            
+        }
+        .dataTableClass
+        {
+        width: 40%;
+        text-decoration: none;
+        padding: 4%;
+        color: black;
+        background-color: #E0E0E0;
+        }
+        
+        .textClass
+        {
+            color:black;
+        }
+        
+         #contactForm
+         {
+            border-style: solid;
+            margin: 1%;
+            width: 100%;
+            color: black;
+            padding: 10px;
+            background-color: Lime;
+         }
+         
+         #contactPage
+         {
+          color:black;   
+         }
+         
+         .hide
+         {
+             display: none;
+             width : 0px;
+             height: 0px;
+             
+         }
+         
+         .show
+         {
+             display: inline;
+         }
+         
+         .errorTextClass
+         {
+             color :Red;
+         }
+         
+         .removeSpace
+         {
+             margin-top : 0px;
+             margin-bottom: 0px;
+         }
+         
+  .sub_Menu
+  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content:space-between;
+        width: 100%;
+  }
+
+  .footer{
+         font-size: small;  
+         color: black; 
+         text-align: center;
+         display: flex;
+         margin-left: auto;
+         margin-right: auto;               
+  }
+     
+ .warnText
+ {
+     font-size: medium;
+     background-color: Yellow; 
+     color:Red; 
+     position:relative;
+     
+       
+ }  
+ 
+#deals
+{
+    color: black;
+    text-align:left;
+    padding: 5%;
+} 
+
+
+.menuDisplay
+{
+    text-align:justify;
+    text-decoration: none;
+    padding-right: 5%;
+    color: black;
+    align-items:center;
+}
+
+.nav-pills {
+    display: flex;
+    justify-content: center;
+}
+
+#locationResults
+{
+ float: right;
+}
+
+ /* Container for all terms and definitions */
+.accordion 
+{
+  background-color: #eef;
+  width: inherit ;
+  margin-top: 0.1em;
+  font-family: Verdana, Tahoma, Sans-Serif;
+  margin-bottom: 1em;
+  color: black;
+}
+        /* term box contains the term to be defined */
+.term 
+{
+  background: url("../Images/tinyArrow.png") no-repeat 98% center;
+  border: solid 1px white;
+  margin:auto;
+  color: black;
+  width: inherit;
+}
+
+.term:hover
+{
+  color: green;
+  font-weight: bold;
+}
+ /* Paragraph contains the definition. */
+.accordion p 
+{
+ margin: 0;
+ padding: 0.5em;
+ background-color: white;
+ display: none;
+ color: black;
+ width: inherit;
+}
+
+
+#myNewMenu{
+    display:flex;
+    width: 100%;
+    flex-wrap:wrap;
+    align-content:space-between;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+#myNewMenu .img-rounded:hover
+{
+  border: solid;
+  border-color: green;
+}
+
+.img-rounded{
+    border: solid;
+}
+
+.menu-img{
+    height:auto;
+    width:25%;
+    display:inline-flex;
+}
+
+#eventDiv{
+        color: black;
+    }
+
+    #delivery_info{
+        margin-top: 10%; 
+        margin-bottom: 10%;  
+        color:black; 
+        text-align: center;
+    }
+
+   .appetizing{
+       margin: 2%;
+   } 
+
+       
+}
+       

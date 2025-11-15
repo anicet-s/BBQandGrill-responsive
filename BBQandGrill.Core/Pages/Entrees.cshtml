@@ -1,0 +1,55 @@
+@page
+@model BBQandGrill.Core.Pages.EntreesModel
+@{
+    ViewData["Title"] = "Entrees";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4">Entrees</h1>
+        <p class="lead">Our signature barbecue dishes</p>
+        <a asp-page="/Menu" class="btn btn-outline-secondary">← Back to Menu</a>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+                <img src="~/Images/blt.jpg" class="card-img-top" alt="BLT Sandwich" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">BLT Sandwich</h5>
+                    <p class="card-text">BLT sandwich with fresh bacon and ingredients, served with a side of fries or baked potatoes</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+                <img src="~/Images/pulled_pork.jpg" class="card-img-top" alt="Pulled Pork" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Honey Baked Pulled Pork</h5>
+                    <p class="card-text">Pulled pork, KC barbecue style with spicy honey sauce.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+                <img src="~/Images/skillet.jpg" class="card-img-top" alt="Mexican Skillet" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Cheesy Mexican Skillet</h5>
+                    <p class="card-text">Cheesy skillet with rice, mushroom and ground beef</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+                <img src="~/Images/couscous.jpg" class="card-img-top" alt="Couscous" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Traditional Couscous</h5>
+                    <p class="card-text">Original Couscous from Egypt, served with vegetable stew</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
